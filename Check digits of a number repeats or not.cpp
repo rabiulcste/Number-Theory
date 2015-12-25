@@ -1,5 +1,6 @@
 #include <bits//stdc++.h>
 using namespace std;
+
 bool verify(long long n)
 {
     int mark = 0,t;
@@ -13,6 +14,7 @@ bool verify(long long n)
     }
     return 1;
 }
+
 int main()
 {
     long long n;

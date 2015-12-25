@@ -1,10 +1,8 @@
 #include <iostream>
 #include <cstdio>
 #include <cmath>
-
-#define MAX 1000001
-
 using namespace std;
+#define MAX 1000001
 
 char prime[MAX];
 

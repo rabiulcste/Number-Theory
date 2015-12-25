@@ -16,7 +16,7 @@
        then we add this 33990 with 3399 and result is 3738[9].
        on third line, we follow same way.
 
-        you should read code first to know res[0], res[1], res[2]......
+       you should read code first to know res[0], res[1], res[2]......
     ---------------------------------------
 */
 

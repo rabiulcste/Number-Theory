@@ -2,7 +2,6 @@
 #include <cmath>
 #define SIZE_N 32000
 #define SIZE_P 3432
-
 using namespace std;
 
 int flag [SIZE_N];
@@ -33,7 +32,7 @@ void seive()
 
 int devisor(int i)
 {
-    int n,j,count,m,div;
+    int n, j, count, m, div;
 
     n=sqrt(i); m = i;  div = 1;
     for(j=1; prime[j] <= n; j++)
@@ -57,8 +56,8 @@ int devisor(int i)
 int main()
 {
     seive();
-    int i,n;
-    while(scanf("%d",&n)==1)
+    int i, n;
+    while(scanf("%d", &n)==1)
     {
         printf("%d No of divisor: %d\n", n, devisor(n));
     }

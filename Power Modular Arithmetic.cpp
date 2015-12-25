@@ -9,7 +9,6 @@ i64 M;
 i64 powermodulo(i64 N, i64 P)
 {
     if(P == 0) return 1;
-
     if(P%2 == 0)
     {
         i64 ret = powermodulo(N, P/2);

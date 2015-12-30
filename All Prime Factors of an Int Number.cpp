@@ -1,6 +1,7 @@
 #include <bits//stdc++.h>
- 
-// A function to print all prime factors of a given number n
+
+using namespace std;
+
 void primeFactors(int n)
 {
     // Print the number of 2s that divide n
@@ -27,7 +28,6 @@ void primeFactors(int n)
         printf ("%d ", n);
 }
  
-/* Driver program to test above function */
 int main()
 {
     int n = 315;

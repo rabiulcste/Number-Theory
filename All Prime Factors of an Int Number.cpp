@@ -1,6 +1,4 @@
-// Program to print all prime factors
-# include <stdio.h>
-# include <math.h>
+#include <bits//stdc++.h>
  
 // A function to print all prime factors of a given number n
 void primeFactors(int n)

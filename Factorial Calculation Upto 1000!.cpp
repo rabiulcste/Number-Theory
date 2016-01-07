@@ -33,18 +33,13 @@ void character_multiplication(char *num1, char *num2, char *result)
     result[k] = carry % 10 + '0';
  }
 
-
     //If the last carry is not '0' then keep it in result.
     if (carry != 0) ++k;
-
 
     result[k] = '\0';
     reverse(&result[0], &result[k]);
     return;
 }
-
-
-
 
 int main()
 {
